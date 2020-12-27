@@ -35,7 +35,7 @@ Lets Code For Test
 ### 기간
 
 1. Span1_(2020-12-28 ~ 2021-01-11)
-    1. 문제 : XXX
+    1. 문제 : https://leetcode.com/problems/trapping-rain-water/
     2. leader : 법룡
 
 2. Span2_(2020-01-11 ~ 2020-01-25)
