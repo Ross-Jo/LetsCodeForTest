@@ -39,7 +39,7 @@ Lets Code For Test
     2. leader : 법룡
 
 2. Span2_(2020-01-11 ~ 2020-01-25)
-    1. 문제 : YYY
+    1. 문제 : https://leetcode.com/problems/find-median-from-data-stream/
     2. leader : 채윤
     
 3. Span3_(2020-01-25 ~ 2020-02-08)
