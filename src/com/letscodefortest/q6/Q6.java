@@ -1,10 +1,11 @@
 package com.letscodefortest.q6;
 
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class Q6 {
     public static Solution1 s1; // too slow
     public static Solution2 s2;
+    public static Solution3 s3;
 
     /**
      * time complexity:
@@ -68,32 +69,111 @@ public class Q6 {
         }
     }
 
+
+    /**
+     * time complexity:
+     * - addNum : O(1)
+     * - findMedian : O(NlogN)
+     * space complexity: O(N)
+     * Runtime: 1072 ms, faster than 8.15% of Java online submissions for Find Median from Data Stream.
+     * Memory Usage: 53.6 MB, less than 17.78% of Java online submissions for Find Median from Data Stream.
+     */
     static class Solution2 {
+        ArrayList<Integer> list;
+
+        public Solution2() {
+            list = new ArrayList<>();
+        }
+
+        public void addNum(int num) {
+            list.add(num);
+        }
+
+        public double findMedian() {
+            list.sort(Comparator.comparingInt(o -> o));
+
+            double ret;
+            int size = list.size();
+
+            if (size % 2 == 0) {
+                ret = (list.get(size/2 - 1) + list.get(size/2)) / 2.0;
+            } else {
+                ret = list.get((int) Math.ceil(size / 2.0) - 1);
+            }
+
+            return ret;
+        }
+    }
+
+    /**
+     * time complexity:
+     * - addNum : O(logN)
+     * - findMedian : O(1)
+     * space complexity: O(N)
+     * Runtime: 62 ms, faster than 25.48% of Java online submissions for Find Median from Data Stream.
+     * Memory Usage: 50 MB, less than 90.29% of Java online submissions for Find Median from Data Stream.
+     */
+    static class Solution3 {
+        ArrayList<Integer> list;
+
+        public Solution3() {
+            list = new ArrayList<>();
+        }
+
+        public void addNum(int num) {
+            if (list.size() == 0) list.add(num);
+            else {
+                int index = Collections.binarySearch(list, num);
+                list.add(index < 0 ? index * (-1) - 1 : index, num);
+            }
+        }
+
+        public double findMedian() {
+            double ret;
+            int size = list.size();
+
+            if (size % 2 == 0) {
+                ret = (list.get(size/2 - 1) + list.get(size/2)) / 2.0;
+            } else {
+                ret = list.get((int) Math.ceil(size / 2.0) - 1);
+            }
+
+            return ret;
+        }
+    }
+
+    static class Solution4 {
+
+    }
+
+    static class Solution5 {
 
     }
 
     public static void main(String[] args) {
         s1 = new Solution1();
         s2 = new Solution2();
-//        s2.addNum(1);
-//        s2.addNum(2);
-//        System.out.println(s2.findMedian());
-//        s2.addNum(3);
-//        System.out.println(s2.findMedian());
+        s3 = new Solution3();
 
-//        s2.addNum(3);
-//        s2.addNum(3);
-//        s2.addNum(4);
-//        s2.addNum(2);
-//        s2.addNum(1);
-//        s2.addNum(2);
-//        s2.addNum(9);
-//        s2.addNum(7);
-//        s2.addNum(6);
-//        s2.addNum(5);
-//        System.out.println(s2.findMedian());
+//        s3.addNum(1);
+//        s3.addNum(2);
+//        System.out.println(s3.findMedian());
+//        s3.addNum(3);
+//        System.out.println(s3.findMedian());
 
-//        s2.addNum(1);
-//        System.out.println(s2.findMedian());
+//        s3.addNum(3);
+//        s3.addNum(3);
+//        s3.addNum(4);
+//        s3.addNum(2);
+//        s3.addNum(1);
+//        s3.addNum(2);
+//        s3.addNum(9);
+//        s3.addNum(7);
+//        s3.addNum(6);
+//        s3.addNum(5);
+//        System.out.println(s3.findMedian());
+
+        s3.addNum(1);
+        System.out.println(s3.findMedian());
     }
 }
