@@ -43,7 +43,7 @@ Lets Code For Test
     2. leader : 채윤
     
 3. Span3_(2020-01-25 ~ 2020-02-08)
-    1. 문제 : YYY
+    1. 문제 : https://leetcode.com/problems/maximal-rectangle/
     2. leader : 도윤 
         
 4. Span4_(2020-02-08 ~ 2020-02-22)
