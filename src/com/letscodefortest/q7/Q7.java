@@ -14,7 +14,7 @@ public class Q7 {
     static Solution4 s4 = new Solution4();
 
     /**
-     * time complexity: O(N^3)
+     * time complexity: O(N^2 * M^2); CF) N: the number of row, M: the number of Columns
      * space complexity: O(1)
      * Runtime: 9 ms, faster than 39.98% of Java online submissions for Maximal Rectangle.
      * Memory Usage: 42.1 MB, less than 63.69% of Java online submissions for Maximal Rectangle.
@@ -57,6 +57,7 @@ public class Q7 {
      * space complexity: O(N * M)
      * Runtime: 9 ms, faster than 39.98% of Java online submissions for Maximal Rectangle.
      * Memory Usage: 42.1 MB, less than 63.69% of Java online submissions for Maximal Rectangle.
+     * 라인별로 사각형의 최대 너비가 될 수 있는 길이를 미리 계산 한 히스토그램을 만들어서 최대 사각형의 넓이 계산
      */
     static class Solution2 {
         public int maximalRectangle(char[][] matrix) {
@@ -87,6 +88,7 @@ public class Q7 {
      * space complexity: O(M)
      * Runtime: 15 ms, faster than 16.27% of Java online submissions for Maximal Rectangle.
      * Memory Usage: 47.8 MB, less than 10.65% of Java online submissions for Maximal Rectangle.
+     * 라인 바이 라인으로 각 칼럼의 최대 높이 가능 값을 계산하고 이후 스택을 이용해 maxarea를 계산
      */
     static class Solution3 {
 
@@ -128,6 +130,7 @@ public class Q7 {
      * space complexity: O(M)
      * Runtime: 8 ms, faster than 48.02% of Java online submissions for Maximal Rectangle.
      * Memory Usage: 47.1 MB, less than 14.75% of Java online submissions for Maximal Rectangle.
+     * 특정 시작지점으로 부터 시작해 최대 left, right, hight 지점을 한정해 maxarea를 계산하는 방법
      */
     static class Solution4 {
         public int maximalRectangle(char[][] matrix) {
