@@ -2,8 +2,6 @@ package com.letscodefortest.q7;
 
 // question : https://leetcode.com/problems/maximal-rectangle/solution/
 
-import sun.nio.cs.ext.MacHebrew;
-
 import java.util.Arrays;
 import java.util.Stack;
 
