@@ -55,7 +55,7 @@ Lets Code For Test
     2. leader : 관용 
     
 6. Span6_(2020-03-08 ~ 2021-03-22)
-    1. 문제 : XXX
+    1. 문제 : https://leetcode.com/problems/dungeon-game/
     2. leader : 우영 
 
 7. Span7_(2020-03-22 ~ 2020-04-05)
