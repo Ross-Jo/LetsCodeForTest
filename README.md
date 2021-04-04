@@ -59,7 +59,7 @@ Lets Code For Test
     2. leader : 우영 
 
 7. Span7_(2020-03-22 ~ 2020-04-05)
-    1. 문제 : YYY
+    1. 문제 : https://leetcode.com/problems/cherry-pickup/
     2. leader : 상일 
     
 8. Span8_(2020-04-05 ~ 2020-04-19)
