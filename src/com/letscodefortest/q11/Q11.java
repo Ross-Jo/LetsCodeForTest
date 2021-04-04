@@ -45,7 +45,7 @@ public class Q11 {
                 return dp[r1][c1][c2];
             } else {
                 int ans = grid[r1][c1];
-                if (c1 != c2) ans += grid[r2][c2];
+                if (c1 != c2) ans += grid[r2][c2]; // 같은 칸에 있는 경우 중복 방지
                 ans += Math.max(Math.max(dp(r1, c1 + 1, c2 + 1), dp(r1 + 1, c1, c2 + 1)),
                                 Math.max(dp(r1, c1 + 1, c2), dp(r1 + 1, c1, c2))
                 );
