@@ -1,0 +1,46 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <unordered_set>
+
+using namespace std;
+
+//문제 접근 : (Greedy) endday가 작은 것부터 그냥 가져다 꽃으면 가장 많겠다 => 그리디로 해결하기
+//근데 가능한 날을 찾는방법이 생각이 안났습니다 처음엔
+//그래서 bool day[100001] 배열을 통해 eventday의 startday - endday중 가능한 가장 빠른 날을 찾아 풀었더니
+//시간초과 발생 -> O(N) 탐색으로 시간초과니 O(logN)의 트리 자료구조 사용해 문제 해결
+//끝 생각보다 어려웠습니다 전
+
+bool cmp(vector<int> v1, vector<int> v2) //endday가 작을수록, startday가 작을수록 정렬
+{
+	if (v1[1] < v2[1])
+		return true;
+	else if (v1[1] == v2[1])
+		if (v1[0] < v2[0])
+			return true;
+	return false;
+}
+
+class Solution {
+public:
+	int maxEvents(vector<vector<int>>& events) {
+		int ans = 0;
+		sort(events.begin(), events.end(), cmp);
+		unordered_set <int> day; //이벤트를 추가할수 있는 날을 저장
+
+		for (int i = 1; i <= events[events.size() - 1][1]; i++)
+			day.insert(i);
+		for (int i = 0; i < events.size(); i++)
+		{
+			auto mday = day.lower_bound(events[i][0]); //lower_bound : 기준값에 제일 가까운 큰 수의 위치 반환
+			if (mday == day.end() || *mday > events[i][1]) //스케쥴이 꽉찼거나, 가능한날이 event의 startday보다 작을경우 이벤트 버림
+				continue;
+			else
+			{
+				ans++;
+				day.erase(mday);
+			}
+		}
+		return ans;
+	}
+};
