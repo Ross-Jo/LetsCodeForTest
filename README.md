@@ -32,7 +32,8 @@ Lets Code For Test
   
 *** 
 
-### 기간
+### Season 1. 
+#### 기간
 
 1. Span1_(2020-12-28 ~ 2021-01-11)
     1. 문제 : https://leetcode.com/problems/trapping-rain-water/
@@ -67,5 +68,42 @@ Lets Code For Test
     2. leader : 영재
         
 9. Span9_(2020-04-19 ~ 2020-05-03)
-    1. 문제 : YYY
+    1. 문제 : https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/
+    2. leader : 동관 
+
+*** 
+
+### Season 2. 
+#### 기간
+
+1. Span1_(2021-05-10 ~ 2021-05-24)
+    1. 문제 : https://leetcode.com/problems/validate-binary-search-tree/
+    2. leader : 법룡
+
+2. Span2_(2021-05-24 ~ 2021-06-07)
+    1. 문제 : -
+    2. leader : 채윤
+        
+4. Span4_(2021-06-07 ~ 2021-06-21)
+    1. 문제 : -
+    2. leader : 헌섭 
+            
+5. Span5_(2021-06-21 ~ 2021-07-05)
+    1. 문제 : -
+    2. leader : 관용 
+    
+6. Span6_(2021-07-05 ~ 2021-07-19)
+    1. 문제 : -
+    2. leader : 우영 
+
+7. Span7_(2021-07-19 ~ 2021-08-02)
+    1. 문제 : -
+    2. leader : 상일 
+    
+8. Span8_(2021-08-02 ~ 2021-08-16)
+    1. 문제 : -
+    2. leader : 영재
+        
+9. Span9_(2021-08-16 ~ 2021-08-30)
+    1. 문제 : -
     2. leader : 동관 
