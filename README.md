@@ -77,11 +77,13 @@ Lets Code For Test
 #### 기간
 
 1. Span1_(2021-05-10 ~ 2021-05-24)
-    1. 문제 : https://leetcode.com/problems/validate-binary-search-tree/
+    1-1. 문제 : https://leetcode.com/problems/validate-binary-search-tree/
+    1-2. 보너스 : https://leetcode.com/problems/maximum-product-subarray/
     2. leader : 법룡
 
 2. Span2_(2021-05-24 ~ 2021-06-07)
-    1. 문제 : -
+    1-1. 문제1 : https://leetcode.com/problems/set-matrix-zeroes/
+    1-2. 문제2 : https://leetcode.com/problems/jump-game/ 
     2. leader : 채윤
         
 4. Span4_(2021-06-07 ~ 2021-06-21)
