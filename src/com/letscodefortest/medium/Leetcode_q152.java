@@ -2,7 +2,6 @@ package com.letscodefortest.medium;
 
 // https://leetcode.com/problems/maximum-product-subarray/
 
-
 /**
  * time complexity: O(N)
  * space complexity: O(1)
