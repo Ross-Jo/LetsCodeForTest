@@ -77,35 +77,39 @@ Lets Code For Test
 #### 기간
 
 1. Span1_(2021-05-10 ~ 2021-05-24)
-    1-1. 문제 : https://leetcode.com/problems/validate-binary-search-tree/
-    1-2. 보너스 : https://leetcode.com/problems/maximum-product-subarray/
-    2. leader : 법룡
+    1. 문제 : https://leetcode.com/problems/validate-binary-search-tree/
+    2. 보너스 : https://leetcode.com/problems/maximum-product-subarray/
+    3. leader : 법룡
 
 2. Span2_(2021-05-24 ~ 2021-06-07)
-    1-1. 문제1 : https://leetcode.com/problems/set-matrix-zeroes/
-    1-2. 문제2 : https://leetcode.com/problems/jump-game/ 
-    2. leader : 채윤
+    1. 문제1 : https://leetcode.com/problems/set-matrix-zeroes/
+    2. 문제2 : https://leetcode.com/problems/jump-game/ 
+    3. leader : 채윤
         
-4. Span4_(2021-06-07 ~ 2021-06-21)
-    1. 문제 : -
-    2. leader : 헌섭 
+3. Span3_(2021-06-07 ~ 2021-06-21)
+    1. 문제1 : https://leetcode.com/problems/coin-change/
+    2. 문제2 : https://leetcode.com/problems/rotate-image/
+    3. leader : 헌섭 
             
-5. Span5_(2021-06-21 ~ 2021-07-05)
-    1. 문제 : -
-    2. leader : 관용 
+4. Span4_(2021-06-21 ~ 2021-07-05)
+    1. 문제1 : https://leetcode.com/problems/delete-nodes-and-return-forest/
+    2. 문제2 : https://leetcode.com/problems/game-of-life/
+    3. leader : 관용 
     
-6. Span6_(2021-07-05 ~ 2021-07-19)
-    1. 문제 : -
-    2. leader : 우영 
+5. Span5_(2021-07-05 ~ 2021-07-19)
+    1. 문제1 : https://leetcode.com/problems/advantage-shuffle/
+    2. 문제2 : https://leetcode.com/problems/find-the-duplicate-number/
+    3. leader : 우영 
 
-7. Span7_(2021-07-19 ~ 2021-08-02)
-    1. 문제 : -
-    2. leader : 상일 
+6. Span6_(2021-07-19 ~ 2021-08-02)
+    1. 문제1 : https://leetcode.com/problems/candy/
+    2. 문제2 : https://leetcode.com/problems/super-egg-drop/
+    3. leader : 상일 
     
-8. Span8_(2021-08-02 ~ 2021-08-16)
+7. Span7_(2021-08-02 ~ 2021-08-16)
     1. 문제 : -
     2. leader : 영재
         
-9. Span9_(2021-08-16 ~ 2021-08-30)
+8. Span8_(2021-08-16 ~ 2021-08-30)
     1. 문제 : -
     2. leader : 동관 
