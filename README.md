@@ -107,8 +107,9 @@ Lets Code For Test
     3. leader : 상일 
     
 7. Span7_(2021-08-02 ~ 2021-08-16)
-    1. 문제 : -
-    2. leader : 영재
+    1. 문제1 : https://leetcode.com/problems/valid-sudoku/
+    2. 문제2 : https://leetcode.com/problems/top-k-frequent-elements/
+    3. leader : 영재
         
 8. Span8_(2021-08-16 ~ 2021-08-30)
     1. 문제 : -
