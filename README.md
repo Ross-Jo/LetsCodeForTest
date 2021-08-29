@@ -112,5 +112,6 @@ Lets Code For Test
     3. leader : 영재
         
 8. Span8_(2021-08-16 ~ 2021-08-30)
-    1. 문제 : -
-    2. leader : 동관 
+    1. 문제1 : https://leetcode.com/problems/longest-consecutive-sequence/
+    2. 문제2 : https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+    3. leader : 동관 

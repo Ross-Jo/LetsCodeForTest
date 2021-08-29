@@ -2,7 +2,7 @@ package com.letscodefortest.medium;
 
 import java.util.*;
 
-public class LeetCode_q347 {
+public class Leetcode_q347 {
     static Solution1 s1 = new Solution1();
     static Solution2 s2 = new Solution2();
     static Solution3 s3 = new Solution3();
