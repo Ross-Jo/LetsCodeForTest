@@ -122,8 +122,8 @@ Lets Code For Test
 #### 기간
 
 1. Span1_(2021-09-06 ~ 2021-09-19)
-    1. 문제1 : 
-    2. 문제2 : 
+    1. 문제1 : https://leetcode.com/problems/search-in-rotated-sorted-array/
+    2. 문제2 : https://leetcode.com/problems/course-schedule-ii/
     3. leader : 관용
 
 2. Span2_(2021-09-20 ~ 2021-10-03)
