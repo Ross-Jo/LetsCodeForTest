@@ -126,47 +126,47 @@ Lets Code For Test
     2. 문제2 : https://leetcode.com/problems/course-schedule-ii/
     3. leader : 관용
 
-2. Span2_(2021-09-20 ~ 2021-10-03)
-    1. 문제1 : 
-    2. 문제2 : 
-    3. leader : 동관
+2. Span2_(2021-09-20 ~ 2021-10-10) - 3주
+    1. 문제1 : https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
+    2. 문제2 : https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+    3. leader : 우영
 
-3. Span3_(2021-10-04 ~ 2021-10-17)
+3. Span3_(2021-10-11 ~ 2021-10-24)
     1. 문제1 : 
     2. 문제2 : 
     3. leader : 영재
 
-4. Span4_(2021-10-18 ~ 2021-10-31)
+4. Span4_(2021-10-25 ~ 2021-11-07)
     1. 문제1 : 
     2. 문제2 : 
     3. leader : 정은
 
-5. Span5_(2021-11-01 ~ 2021-11-14)
+5. Span5_(2021-11-08 ~ 2021-11-21)
     1. 문제1 : 
     2. 문제2 : 
-    3. leader : 우영
+    3. leader : 동관
 
-6. Span6_(2021-11-15 ~ 2021-11-28)
+6. Span6_(2021-11-22 ~ 2021-12-05)
     1. 문제1 : 
     2. 문제2 : 
     3. leader : 채윤
 
-7. Span7_(2021-11-29 ~ 2021-12-12)
+7. Span7_(2021-12-06 ~ 2021-12-19)
     1. 문제1 : 
     2. 문제2 : 
     3. leader : 도윤
 
-8. Span8_(2021-12-13 ~ 2021-12-26)
+8. Span8_(2021-12-20 ~ 2022-01-02)
     1. 문제1 : 
     2. 문제2 : 
     3. leader : 상일 
 
-9. Span9_(2021-12-27 ~ 2022-01-09)
+9. Span9_(2022-01-03 ~ 2022-01-16)
     1. 문제1 : 
     2. 문제2 : 
     3. leader : 법룡 
     
-10. Span10_(2022-01-10 ~ 2022-01-23)
+10. Span10_(2022-01-17 ~ 2022-01-30)
     1. 문제1 : 
     2. 문제2 : 
     3. leader : 헌섭 
