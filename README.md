@@ -132,33 +132,33 @@ Lets Code For Test
     3. leader : 우영
 
 3. Span3_(2021-10-11 ~ 2021-10-24)
-    1. 문제1 : 
-    2. 문제2 : 
+    1. 문제1 : https://leetcode.com/problems/longest-increasing-subsequence/
+    2. 문제2 : https://leetcode.com/problems/merge-intervals/
     3. leader : 영재
 
 4. Span4_(2021-10-25 ~ 2021-11-07)
-    1. 문제1 : 
-    2. 문제2 : 
+    1. 문제1 : https://leetcode.com/problems/wiggle-subsequence/
+    2. 문제2 : https://leetcode.com/problems/triangle/
     3. leader : 정은
 
 5. Span5_(2021-11-08 ~ 2021-11-21)
-    1. 문제1 : 
-    2. 문제2 : 
+    1. 문제1 : -
+    2. 문제2 : -
     3. leader : 동관
 
 6. Span6_(2021-11-22 ~ 2021-12-05)
-    1. 문제1 : 
-    2. 문제2 : 
+    1. 문제1 : -
+    2. 문제2 : -
     3. leader : 채윤
 
 7. Span7_(2021-12-06 ~ 2021-12-19)
-    1. 문제1 : 
-    2. 문제2 : 
+    1. 문제1 : -
+    2. 문제2 : -
     3. leader : 도윤
 
 8. Span8_(2021-12-20 ~ 2022-01-02)
-    1. 문제1 : 
-    2. 문제2 : 
+    1. 문제1 : -
+    2. 문제2 : -
     3. leader : 상일 
 
 9. Span9_(2022-01-03 ~ 2022-01-16)
