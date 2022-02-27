@@ -177,8 +177,8 @@ Lets Code For Test
 #### 기간
 
 1. Span1_(2022-02-07 ~ 2022-02-27) - 3주
-   1. 문제1 : 
-   2. 문제2 : 
+   1. 문제1 : https://leetcode.com/problems/distant-barcodes/
+   2. 문제2 : https://leetcode.com/problems/rank-teams-by-votes/
    3. leader : 도윤
 
 2. Span2_(2022-02-28 ~ 2022-03-13)
