@@ -67,7 +67,7 @@ public class Leetcode_1366 {
      * space complexity: O(C^2), C: number of seats
      * Runtime: 39 ms, faster than 16.19% of Java online submissions for Rank Teams by Votes.
      * Memory Usage: 53.5 MB, less than 17.53% of Java online submissions for Rank Teams by Votes.
-     * 최대 빈도를 가지는 숫자를 각 반복주기마다 꺼내어 기록한다. 단, 최대빈도 숫자와 마지막 기록한 숫자가 겹치는 경우 다음 최대빈도 숫자를 사용한다.
+     * 각 팀이 seat 별로 받은 vote 수 만큼의 합계를 나타내는 배열을 만든 후 배열끼리 비교를 통한 sort를 실시하여 결과를 반환한다.
      */
     static class Solution2 {
         public String rankTeams(String[] votes) {
