@@ -207,22 +207,57 @@ Lets Code For Test
    3. leader : 법룡
 
 7. Span7_(2022-05-09 ~ 2022-05-22)
-   1. 문제1 : 
-   2. 문제2 : 
+   1. 문제1 : https://leetcode.com/problems/prison-cells-after-n-days/
+   2. 문제2 : https://leetcode.com/problems/partition-equal-subset-sum/
    3. leader : 영재
 
 8. Span8_(2022-05-23 ~ 2022-06-05)
-   1. 문제1 : 
-   2. 문제2 : 
+   1. 문제1 : https://leetcode.com/problems/palindrome-partitioning/
+   2. 문제2 : https://leetcode.com/problems/restore-ip-addresses/
    3. leader : 채윤
 
 9. Span9_(2022-06-06 ~ 2022-06-19)
-   1. 문제1 : 
-   2. 문제2 : 
+   1. 문제1 : https://leetcode.com/problems/house-robber/
+   2. 문제2 : https://leetcode.com/problems/word-break/
    3. leader : 헌섭
 
 10. Span10_(2022-06-20 ~ 2022-07-03)
-    1. 문제1 : 
-    2. 문제2 : 
+    1. 문제1 : https://leetcode.com/problems/allocate-mailboxes/
+    2. 문제2 : https://leetcode.com/problems/non-decreasing-array/submissions/
     3. leader : 상일 
 
+*** 
+
+### Season 5.
+#### 기간
+
+1. Span1_(2022-08-01 ~ 2022-08-14)
+   1. 문제1 : 
+   2. 문제2 : 
+   3. leader : 법룡
+
+2. Span2_(2022-08-15 ~ 2022-08-28)
+   1. 문제1 :
+   2. 문제2 :
+   3. leader : 동관
+
+3. Span3_(2022-08-29 ~ 2022-09-11)
+   1. 문제1 :
+   2. 문제2 :
+   3. leader : 헌섭
+
+4. Span4_(2022-09-12 ~ 2022-09-25)
+   1. 문제1 :
+   2. 문제2 :
+   3. leader : 상일
+
+5. Span5_(2022-09-26 ~ 2022-10-09)
+   1. 문제1 :
+   2. 문제2 :
+   3. leader : 우영
+
+6. Span6_(2022-10-10 ~ 2022-10-23)
+   1. 문제1 :
+   2. 문제2 :
+   3. leader : 관용
+   
