@@ -1,8 +1,8 @@
-package com.letscodefortest.medium;
+package com.letscodefortest.medium.slidingwindow;
 
 // https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
-public class Leetcode_q3 {
+public class Leetcode_longest_substring_without_repeating_characters_q3 {
     static Solution1 s1 = new Solution1();
 
     /**
@@ -13,11 +13,10 @@ public class Leetcode_q3 {
      * sliding window 방법을 사용해, 오른쪽 끝을 늘려가 주면서, 왼쪽 끝이 변경되어야 하는지를 판단한다.
      * 이때 왼쪽 끝이 변경되어야 하는 판단 기준은 한번이라도 출몰한 char의 index 다음 index를 저장해, 한번이라도 출몰한 char와 동일한 char가 출현하는 경우
      * (이전에 등장한) 해당 char의 다음 시작 지점으로 i를 옮겨주는 것이다 (substring에 두번 중복되는 char가 없도록)
-     *
+     * <p>
      * int[26] for Letters 'a' - 'z' or 'A' - 'Z'
      * int[128] for ASCII
      * int[256] for Extended ASCII
-     *
      */
     static class Solution1 {
         public int lengthOfLongestSubstring(String s) {
@@ -25,7 +24,7 @@ public class Leetcode_q3 {
             int[] index = new int[128];
 
             for (int i = 0, j = 0; j < n; j++) {
-                i = Math.max(index[s.charAt(j)], i);
+                i = Math.max(index[s.charAt(j)], i); // 2개의 포인터가 포인트
                 ans = Math.max(ans, j - i + 1);
                 index[s.charAt(j)] = j + 1;
             }

@@ -1,9 +1,9 @@
-package com.letscodefortest.medium;
+package com.letscodefortest.medium.unionfind;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class Leetcode_128 {
+public class Leetcode_longest_consecutive_sequence_q128 {
     static Solution1 s1 = new Solution1();
 
     /**

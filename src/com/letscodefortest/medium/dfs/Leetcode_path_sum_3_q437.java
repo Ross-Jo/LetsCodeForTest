@@ -1,4 +1,4 @@
-package com.letscodefortest.medium;
+package com.letscodefortest.medium.dfs;
 
 public class Leetcode_path_sum_3_q437 {
 
@@ -36,7 +36,7 @@ public class Leetcode_path_sum_3_q437 {
             if (node == null) {
                 return;
             }
-            sum(node, targetSum);
+            sum(node, targetSum); // 2중 dfs
             dfs(node.left, targetSum);
             dfs(node.right, targetSum);
         }
@@ -45,7 +45,7 @@ public class Leetcode_path_sum_3_q437 {
             if (n == null) {
                 return;
             }
-            long temp = s - n.val;
+            long temp = s - n.val; // targetSum을 깎아 내려가는 방식
             if (temp == 0) {
                 hit++;
             }

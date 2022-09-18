@@ -1,8 +1,8 @@
-package com.letscodefortest.medium;
+package com.letscodefortest.medium.backtracking;
 
 import java.util.*;
 
-public class Leetcode_17 {
+public class Leetcode_letter_combinations_of_a_phone_number_17 {
     static Solution1 s1 = new Solution1();
 
     /**
@@ -52,7 +52,15 @@ public class Leetcode_17 {
     static class Solution2 { // solution 참고
         private List<String> combinations = new ArrayList<>();
         private Map<Character, String> letters
-                = Map.of('2', "abc", '3', "def", '4', "ghi", '5', "jkl", '6', "mno", '7', "pqrs", '8', "tuv", '9', "wxyz");
+                = Map.of(
+                '2', "abc",
+                '3', "def",
+                '4', "ghi",
+                '5', "jkl",
+                '6', "mno",
+                '7', "pqrs",
+                '8', "tuv",
+                '9', "wxyz");
         private String phoneDigits;
 
         public List<String> letterCombinations(String digits) {

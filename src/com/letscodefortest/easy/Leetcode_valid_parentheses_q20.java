@@ -2,7 +2,9 @@ package com.letscodefortest.easy;
 
 import java.util.Stack;
 
-public class Leetcode_q20 {
+// https://leetcode.com/problems/valid-parentheses/
+
+public class Leetcode_valid_parentheses_q20 {
     static Solution1 s1 = new Solution1();
 
     static class Solution1 {

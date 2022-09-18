@@ -1,8 +1,8 @@
-package com.letscodefortest.medium;
+package com.letscodefortest.medium.greedy;
 
 import java.util.*;
 
-public class Leetcode_1054 {
+public class Leetcode_distant_barcodes_q1054 {
     static Solution1 s1 = new Solution1();
 
     /**
@@ -43,11 +43,11 @@ public class Leetcode_1054 {
             if (entry.getValue() == 0) return -1;
 
             int mostFrequentKey;
-            if (result.size() == 0 || (int) result.get(result.size()-1) != (int) entry.getKey()) {
+            if (result.size() == 0 || (int) result.get(result.size() - 1) != (int) entry.getKey()) {
                 mostFrequentKey = entry.getKey();
                 entry.setValue(entry.getValue() - 1);
             } else {
-                mostFrequentKey = getMostFrequentKey();
+                mostFrequentKey = getMostFrequentKey(); // 다음 최고 빈도 element가 마지막에 추가된 element와 동일한 경우 이와 같이 재귀 로직을 호출한게 포인트
             }
             heap.add(entry);
 

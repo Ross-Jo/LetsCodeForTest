@@ -1,9 +1,9 @@
-package com.letscodefortest.medium;
+package com.letscodefortest.medium.rule.sorting;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Leetcode_1366 {
+public class Leetcode_rank_teams_by_votes_1366 {
     static Solution1 s1 = new Solution1();
     static Solution2 s2 = new Solution2();
 
@@ -78,18 +78,18 @@ public class Leetcode_1366 {
                 for (int i = 0; i < numOfSeats; i++) {
                     char c = vote.charAt(i);
                     map.putIfAbsent(c, new int[numOfSeats]);
-                    map.get(c)[i]++;
+                    map.get(c)[i]++;// 여기도 눈여겨 볼 것, map에서 int배열을 가져옴과 동시에 index를 이용해서 해당 seat의 투표수를 증가시킴
                 }
             }
 
             List<Character> teamList = new ArrayList<>(map.keySet());
-            Collections.sort(teamList, (a, b) -> {
+            Collections.sort(teamList, (a, b) -> { // 배열비교가 포인트
                 for (int i = 0; i < numOfSeats; i++) {
                     if (map.get(a)[i] != map.get(b)[i]) {
-                        return map.get(b)[i] - map.get(a)[i];
+                        return map.get(b)[i] - map.get(a)[i]; // 내림차순
                     }
                 }
-                return a - b;
+                return a - b; // 오름차순
             });
 
             StringBuilder sb = new StringBuilder();

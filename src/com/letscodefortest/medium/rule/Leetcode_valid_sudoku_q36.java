@@ -1,8 +1,8 @@
-package com.letscodefortest.medium;
+package com.letscodefortest.medium.rule;
 
 import java.util.*;
 
-public class Leetcode_q36 {
+public class Leetcode_valid_sudoku_q36 {
     static Solution1 s1 = new Solution1();
     static Solution2 s2 = new Solution2();
     static Solution3 s3 = new Solution3();
@@ -175,7 +175,7 @@ public class Leetcode_q36 {
                         continue;
                     }
                     int val = board[r][c] - '0';
-                    int pos = 1 << (val - 1);
+                    int pos = 1 << (val - 1); // 비트연산을 통한 중복체크가 인상적인 부분
 
                     if ((rows[r] & pos) > 0) {
                         return false;
@@ -201,15 +201,15 @@ public class Leetcode_q36 {
 
     public static void main(String[] args) {
         char[][] input = new char[][]
-                {{'8', '3', '.', '.', '7', '.', '.', '.', '.'}
-                        , {'6', '.', '.', '1', '9', '5', '.', '.', '.'}
-                        , {'.', '9', '8', '.', '.', '.', '.', '6', '.'}
-                        , {'8', '.', '.', '.', '6', '.', '.', '.', '3'}
-                        , {'4', '.', '.', '8', '.', '3', '.', '.', '1'}
-                        , {'7', '.', '.', '.', '2', '.', '.', '.', '6'}
-                        , {'.', '6', '.', '.', '.', '.', '2', '8', '.'}
-                        , {'.', '.', '.', '4', '1', '9', '.', '.', '5'}
-                        , {'.', '.', '.', '.', '8', '.', '.', '7', '9'}};
+                 {{'8', '3', '.', '.', '7', '.', '.', '.', '.'}
+                , {'6', '.', '.', '1', '9', '5', '.', '.', '.'}
+                , {'.', '9', '8', '.', '.', '.', '.', '6', '.'}
+                , {'8', '.', '.', '.', '6', '.', '.', '.', '3'}
+                , {'4', '.', '.', '8', '.', '3', '.', '.', '1'}
+                , {'7', '.', '.', '.', '2', '.', '.', '.', '6'}
+                , {'.', '6', '.', '.', '.', '.', '2', '8', '.'}
+                , {'.', '.', '.', '4', '1', '9', '.', '.', '5'}
+                , {'.', '.', '.', '.', '8', '.', '.', '7', '9'}};
 
         System.out.println(s1.isValidSudoku(input));
     }

@@ -44,9 +44,9 @@ public class Leetcode_word_break_q139 {
             if (list != null) {
                 for (String e : list) {
                     if (target.indexOf(e, startIndex) == startIndex) {
-                        if(findSegmentation(startIndex + e.length(), memo)) {
+                        if (findSegmentation(startIndex + e.length(), memo)) {
                             return memo[startIndex] = true; // startIndex를 기준점으로 잡고, 그 뒷부분이 split 되는지 판단한 다음, memo해 놓는다.
-                                                            // 이와 같은 memo 방식도 있다는 것을 봐둘 것
+                            // 이와 같은 memo 방식도 있다는 것을 봐둘 것
                         }
                     }
                 }
@@ -60,9 +60,9 @@ public class Leetcode_word_break_q139 {
             Set<String> wordDictSet = new HashSet<>(wordDict);
             boolean[] dp = new boolean[s.length() + 1];
             dp[0] = true;
-            for (int i = 1; i <= s.length(); i++) {
-                for (int j = 0; j < i; j++) {
-                    if (dp[j] && wordDictSet.contains(s.substring(j, i))) {
+            for (int i = 1; i <= s.length(); i++) { // 인덱스를 2개 써서 substring 안에서 해당 substring을 각각의 더 작은 substring으로 분할하고 문제를 해결했다는 점이 포인트
+                for (int j = 0; j < i; j++) { // i 는 substring의 길이를, j는 substring을 partitioning을 할 index를 가리킨다
+                    if (dp[j] && wordDictSet.contains(s.substring(j, i))) { // 여기도 포인트, 이전 계산 결과를 어떻게 활용하는 지 볼 것
                         dp[i] = true;
                         break;
                     }
@@ -75,9 +75,9 @@ public class Leetcode_word_break_q139 {
     public static void main(String[] args) {
         System.out.println(s1.wordBreak("leetcode", List.of(new String[]{"leet", "code"})));
         System.out.println(s1.wordBreak("applepenapple", List.of(new String[]{"apple", "pen"})));
-        System.out.println(s1.wordBreak("catsandog", List.of(new String[]{"cats","dog","sand","and","cat"})));
+        System.out.println(s1.wordBreak("catsandog", List.of(new String[]{"cats", "dog", "sand", "and", "cat"})));
         System.out.println(s1.wordBreak("cbca", List.of(new String[]{"bc", "ca"})));
         System.out.println(s1.wordBreak("cars", List.of(new String[]{"car", "ca", "rs"})));
-        System.out.println(s1.wordBreak("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab", List.of(new String[]{"a","aa","aaa","aaaa","aaaaa","aaaaaa","aaaaaaa","aaaaaaaa","aaaaaaaaa","aaaaaaaaaa"})));
+        System.out.println(s1.wordBreak("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab", List.of(new String[]{"a", "aa", "aaa", "aaaa", "aaaaa", "aaaaaa", "aaaaaaa", "aaaaaaaa", "aaaaaaaaa", "aaaaaaaaaa"})));
     }
 }

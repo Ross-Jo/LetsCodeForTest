@@ -13,7 +13,7 @@ public class Leetcode_allocate_mailboxes_q1478 {
      * Runtime: 13 ms, faster than 75.14% of Java online submissions for Allocate Mailboxes.
      * Memory Usage: 42.1 MB, less than 70.17% of Java online submissions for Allocate Mailboxes.
      * median이 mailbox를 놓을 수 있는 최적 위치라는 사실을 증명 후, dp를 적용한다.
-     *  해설참조 : https://leetcode.com/problems/allocate-mailboxes/discuss/685620/JavaC%2B%2BPython-Top-down-DP-Prove-median-mailbox-O(n3)
+     * 해설참조 : https://leetcode.com/problems/allocate-mailboxes/discuss/685620/JavaC%2B%2BPython-Top-down-DP-Prove-median-mailbox-O(n3)
      */
     static class Solution1 {
         public final int MAX = 100, INF = 100 * 10000;

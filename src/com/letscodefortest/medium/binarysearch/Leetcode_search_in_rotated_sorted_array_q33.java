@@ -1,6 +1,6 @@
-package com.letscodefortest.medium;
+package com.letscodefortest.medium.binarysearch;
 
-public class Leetcode_q33 {
+public class Leetcode_search_in_rotated_sorted_array_q33 {
     static Solution1 s1 = new Solution1();
 
     /**
@@ -13,11 +13,11 @@ public class Leetcode_q33 {
     static class Solution1 { // solution 참고
         public int search(int[] nums, int target) {
             int start = 0, end = nums.length - 1;
-            while (start <= end) {
+            while (start <= end) { // rotate된 증가수열에서 이분탐색을 구현한 부분이 핵심 (mid가 위치하는 부분에 따른 케이스 분류에 유의하여 볼 것)
                 int mid = start + (end - start) / 2;
                 if (nums[mid] == target) return mid;
                 else if (nums[mid] >= nums[start]) { // 만약 mid가 start 지점부터 계속 증가하는 수열의 부분에 위치하고 있고
-                    if (target >= nums[start] && target < nums[mid]) end = mid - 1; // 타깃이 그 사이에 위치 하는 경우, 왼쪽 탐색
+                    if (target >= nums[start] && target < nums[mid]) end = mid - 1; // 타깃이 그 사이에 위치 하는 경우, 왼쪽 탐색 (값의 변화가 예측되는 부분 위주로 조건을 걸어서 케이스 분류하는 것에 주목)
                     else start = mid + 1; // 아니면 오른쪽 탐색
                 } else { // 만약 mid가 start~mid 지점중 끊기는 지점이 있는 경우
                     if (target <= nums[end] && target > nums[mid]) start = mid + 1; // target이 오른쪽의 증가수열에 위치한다면 오른쪽으로 탐색
