@@ -247,17 +247,17 @@ Lets Code For Test
    3. leader : 헌섭
 
 4. Span4_(2022-09-19 ~ 2022-10-02)
-   1. 문제1 :
-   2. 문제2 :
+   1. 문제1 : https://leetcode.com/problems/jump-game-ii/
+   2. 문제2 : https://leetcode.com/problems/couples-holding-hands/
    3. leader : 상일
 
 5. Span5_(2022-10-03 ~ 2022-10-16)
-   1. 문제1 :
-   2. 문제2 :
+   1. 문제1 : https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/
+   2. 문제2 : https://leetcode.com/problems/brick-wall/
    3. leader : 우영
 
 6. Span6_(2022-10-17 ~ 2022-10-30)
-   1. 문제1 :
-   2. 문제2 :
+   1. 문제1 : https://leetcode.com/problems/valid-triangle-number/
+   2. 문제2 : https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/
    3. leader : 관용
    
